@@ -5,11 +5,12 @@ import { IncomeExpenses } from "./components/IncomeExpenses";
 import { TransactionList } from "./components/transactions/TransactionList";
 import { TransactionForm } from "./components/transactions/TransactionForm";
 import { ExpenseChart } from "./components/ExpenseChart";
+import './index.css'
 
 function App() {
   return (
     <GlobalProvider>
-      <div className="bg-neutral-950 text-white h-screen flex justify-center items-center">
+      <div className="bg-neutral-950 text-white h-screen flex justify-center items-center app-container">
         <div className="w-2/5 flex justify-center items-center">
           <div className="bg-neutral-800 p-10 rounded-md w-full">
             <Header />

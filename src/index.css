@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos base */
+.app-container {
+    min-width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
