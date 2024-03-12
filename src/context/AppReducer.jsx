@@ -12,6 +12,18 @@ export default (state, action) => {
         ...state,
         transactions: [action.payload, ...state.transactions],
       };
+    case "UPDATE_TRANSACTION":
+        return state;
+    case "RESET_TRANSACTIONS":
+      return {
+        ...state,
+        transactions: [],
+      };
+    case "SET_UNIDAD":
+      return {
+        ...state,
+        Unidad: action.payload,
+      };
     default:
       return state;
   }

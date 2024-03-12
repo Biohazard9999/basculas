@@ -10,13 +10,23 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@serialport/parser-byte-length": "^12.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
     "gh-pages": "^5.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "serialport": "^12.0.0",
     "victory": "^36.6.10"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "^4.0.0",
